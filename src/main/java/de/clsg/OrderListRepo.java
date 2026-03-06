@@ -3,7 +3,7 @@ package de.clsg;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrderListRepo {
+public class OrderListRepo implements OrderRepoInterface {
   private List<Order> orders = new ArrayList<>();
 
   public void addOrder(Order order) {

@@ -2,9 +2,9 @@ package de.clsg;
 
 public class ShopService {
   private final ProductRepo pr;
-  private final OrderListRepo or;
+  private final OrderRepoInterface or;
 
-  public ShopService(ProductRepo pr, OrderListRepo or) {
+  public ShopService(ProductRepo pr, OrderRepoInterface or) {
     this.pr = pr;
     this.or = or;
   }
