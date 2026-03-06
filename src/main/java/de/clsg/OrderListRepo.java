@@ -15,9 +15,6 @@ public class OrderListRepo implements OrderRepoInterface {
   }
 
   public List<Order> getAll() {
-    System.out.println("######## List of all orders ########");
-    orders.forEach(o -> System.out.println(o));
-    System.out.println("######################################");
     return orders;
   }
 

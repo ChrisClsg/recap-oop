@@ -17,9 +17,6 @@ public class OrderMapRepo implements OrderRepoInterface {
   }
 
   public List<Order> getAll() {
-    System.out.println("######## List of all orders ########");
-    orders.forEach((id, order) -> System.out.println(order));
-    System.out.println("######################################");
     return new ArrayList<>(orders.values());
   }
 
